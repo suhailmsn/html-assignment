@@ -1,0 +1,507 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    background-color: rgb(247,246,244);
+    line-height: 30px;
+}
+.flex{
+    display: flex;    
+}
+ul{
+    display: flex;  
+    list-style-type: none;
+}
+p{
+    font-size:  16px;
+    font-weight: 500;
+    color: rgb(101,101,101);
+}
+a,button{
+      cursor: pointer;
+}
+.main-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+header ul{
+    margin-left: auto;
+}
+#hamburger-icon{
+    display: none;
+    height: 30px;
+}
+
+.header-list li,.responsive li{
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: flex-end;
+    color: black;
+}
+.first-section img{
+    margin-left: 20px;
+}
+.column{
+    width:47%;
+    align-self: center;
+}
+h2{
+    font-size: 45px;
+    font-weight:700;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+h2 span{
+    color: #709d61;
+    font-size: 45px;
+    font-weight: 700;
+}
+span{
+    color: #709d61;
+    font-size: 16px;
+    font-weight: 500;
+}
+#contact-button {
+    background-color: #709d61; 
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.content-section li{
+    width: (100/3)%;
+}
+#gardening-row{
+    margin-top: 100px;
+}
+#gardening{
+    align-self: flex-start;
+}
+.content-section-offer{
+    text-align: center;
+    margin-top: 100px;   
+}
+.content-section-left{
+    margin-top: 100px; 
+    text-align: center;
+}
+.content-section-left ul{
+    text-align: left;
+    flex-wrap: wrap;
+}
+.content-section-left li{
+    width: 33.33%;
+}
+.content-section-offer p{
+    width: 90%;
+}
+.content-section-left p{
+    width: 90%;
+    margin-bottom: 70px;
+}
+.content-section img,.content-section-left img{
+    background-color: rgb(240,241,236);
+    padding: 20px;
+    border-radius: 50%;
+    margin: auto 0;
+}
+.content-section h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+#read-more-button{
+    background-color: transparent;
+    color: #709d61; 
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: #709d61;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.works-done{
+    margin-top: 100px;
+    text-align: center;
+}
+.works-done h2{
+    margin-bottom: 60px;
+}
+.contain-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contain-image img{
+    width: 32%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.clients-section{
+    margin-top: 100px;
+    text-align: center;
+}
+.clients-row img{
+    margin-right: 50px;
+    margin-left: 170px;
+}
+.clients-row p{
+    width: 90%;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+#tesimonialover-img{
+    display: none;
+    border-radius: 10px;
+}
+#tesimonial-img{
+    border-radius: 10px;
+    width: 300px;  
+}
+#left-align{
+    text-align: left;
+    align-self: flex-start;
+}
+#quote-img{
+     background-color: #709d61;
+     padding: 10px;
+     border-radius: 50%;
+     height: 45px;
+     margin-left: 0;
+}
+form {
+    flex-direction:row;
+}
+.gardening-tips{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241,242,238);
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.input-form{
+    position: relative;
+}
+input{
+    border-radius: 10px;
+    width: 500px;
+    padding-left: 20px;
+    height: 60px;
+    border:none;
+    font-size: 18px;
+
+}
+#subscribe {
+    position: absolute;
+    top: 11%;
+    left: 76%;
+    padding: 14px 18px;
+    border-radius: 4px;
+    border: none;
+    background:#709d61;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.gardening-content{
+    padding: 50px 0px;
+}
+.gardening-tips h2{
+    padding-bottom: 25px;
+}
+footer{
+    padding-top: 60px;
+}
+footer ul{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(101,101,101);
+}
+footer li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    width: 90%;
+}
+footer span{
+    color: rgb(101,101,101);  
+    font-size: 16px;
+    font-weight: 500;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer img{
+    margin-bottom: 10px;
+}
+footer .flex{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    width: 84%;
+}
+.footer-column{
+    width: 24%
+}
+.copyright-tag{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#green-text{
+    color: #709d61;
+    
+}
+hr{
+    opacity: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+
+    .main-container{
+        max-width: 1080px;
+        padding: 0px 25px;
+    }
+    .first-section .flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .first-section .flex h2{
+        margin: 0 auto;
+        width: 80%; 
+    }
+    .app-header{
+        justify-content: space-between;
+    }
+    #hamburger-icon{
+        display: inline;
+        margin-left: auto !important;
+    }
+    .header-list{
+        display: none;   
+    }
+    .responsive{
+        position:absolute;
+        top:56px;
+        right: 17px;
+        display: flex; 
+        flex-direction: column;
+        list-style-type: none;
+        z-index: 1;
+        text-align: center;
+        background-color: rgb(230,230,230);
+        border-radius: 10px;
+        padding: 10px;
+        
+    }
+    .responsive li:nth-child(-n + 2){
+        border-bottom:1px solid #709d61;
+    }
+    .first-section img,#gardening-row img{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .column{
+        width: 100%;
+        align-items: center;
+    }
+    .content-section{
+        margin-top: 30px;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    .content-section p{
+        text-align: center;
+        width :90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #gardening-row{
+        flex-direction: column;      
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    #gardening-row h2{
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section-left ul{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    .content-section-left li{
+        width: 100%;
+    }
+    .content-section-left h2{
+        padding-bottom: 10px
+    }
+    .content-section-left ul h3{
+        padding-bottom: 10px;
+    }
+    .content-section-left ul p{
+        width: 100%
+    }
+    .contain-image{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+     .contain-image img{
+         width: 48%;
+         flex-shrink: 1;
+    }
+    .clients-row{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+        justify-content: center;
+        margin-top: 100px;
+
+    }
+    .clients-row p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clients-row img{
+        display: flex;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+    #left-align{
+        text-align:center;
+    }
+    input{
+   
+        width: 500px;
+
+    }
+    #subscribe {
+        left: 76%;
+    }
+    footer .flex{
+        flex-direction: column;
+        text-align: center;
+        align-items: baseline;
+    }
+    footer li{
+     display: flex;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    footer h3{
+       text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .footer-column{
+        width: 100%
+    }
+    footer p{
+        width: 100%
+    }
+    .weekdays li{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between; 
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main-container{
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contain-image img{
+        margin-left: auto;
+        margin-right: auto;
+         width: 90%;
+    }
+    #quote-img{
+        display: none;
+    }
+    .clients-row img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clients-row{
+        flex-direction: column;
+    }
+    .clients-row p{
+        margin-top: 20px;
+    }
+    input{
+    width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #subscribe {
+    left: 57%;
+    }
+}
