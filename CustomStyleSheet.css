@@ -47,6 +47,9 @@ header ul{
 .first-section img{
     margin-left: 20px;
 }
+.first-section p{
+    margin-bottom: 20px;
+}
 .column{
     width:47%;
     align-self: center;
@@ -74,9 +77,8 @@ span{
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-    font-weight: 700;
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 8px 20px;
+    text-decoration: none;
 }
 .content-section li{
     width: (100/3)%;
@@ -123,7 +125,9 @@ span{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-    
+#gardening p{
+    margin-bottom: 20px;
+}
 #read-more-button{
     background-color: transparent;
     color: #709d61; 
@@ -133,8 +137,9 @@ span{
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 8px 20px;
     margin-top: 30px;
+    text-decoration: none;
 }
 
 .works-done{
@@ -274,10 +279,11 @@ footer p{
 .footer-column{
     width: 24%
 }
-.copyright-tag{
+#copyright-tag{
+    display: block;
     text-align: center;
     font-size: 14px;
-    padding-bottom: 20px;
+    margin: 20px auto;
 }
 
 #green-text{
@@ -326,7 +332,8 @@ hr{
     .responsive{
         position:absolute;
         top:56px;
-        right: 17px;
+        right: 20px;
+        left: 20px;
         display: flex; 
         flex-direction: column;
         list-style-type: none;
@@ -334,8 +341,7 @@ hr{
         text-align: center;
         background-color: rgb(230,230,230);
         border-radius: 10px;
-        padding: 10px;
-        
+        padding: 10px; 
     }
     .responsive li:nth-child(-n + 2){
         border-bottom:1px solid #709d61;
@@ -459,6 +465,9 @@ hr{
         margin-right: auto;
         justify-content: space-between; 
     }
+    #copyright-tag{
+    margin-bottom: 20px;
+}
 
 
 }
